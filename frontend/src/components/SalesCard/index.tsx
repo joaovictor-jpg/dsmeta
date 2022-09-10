@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import NotificationButton from "../NotificationButton";
 import DatePicker from "react-datepicker";
 import axios from "axios";
-import { BASE_URL } from "../../utils/request.ts";
-import { Sale } from "../../models/sale.ts";
+import { BASE_URL } from "../../utils/request";
+import { Sale } from "../../models/sale";
 import './styles.css';
 import "react-datepicker/dist/react-datepicker.css";
 
